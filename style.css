@@ -1,0 +1,114 @@
+html,body {
+    margin: 0;
+    padding: 0;
+   /* background: skyblue; */
+}
+
+#nav {
+    justify-content: space-around;
+    box-sizing: border-box;
+    display: flex;
+    padding: 1.5vh,1.5vw;
+   /* border-bottom: 2px solid black; */
+   height: calc(100% - 100px);
+   width: 100%;
+}
+/*
+.content {
+    height: calc(100% - 100px);
+    width: 100%;
+
+}
+*/
+ #left span {
+    color: skyblue;
+}
+#left {
+    height: 50%;
+    width: 50%;
+    font-size: 6.2vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 6.0vh;
+    padding-left: 4.0vw;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+}
+
+#left h2{
+    font-size: 3.2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 75%;
+    font-weight: 500;
+    
+}
+
+#left #btn {
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: skyblue;
+    color: black;
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+    padding-right: 2.0vw;
+    padding-left: 2.0vw;
+    text-align: center;
+    border-radius: 0.5vh;
+
+}
+
+#left #btn:hover{
+    background: rgb(74, 105, 178);
+    color: skyblue;
+}
+#right img {
+    height: 100%;
+    width: 100%;
+
+}
+
+@media (max-width:600px) {
+    #nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #right img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    #left {
+        font-size: 4.2vh;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding-top: 2.0vh;
+        padding-left: 1.5vw;
+        position: absolute;
+       /* top: -35%;
+        left: -30%;
+        transform: translate(-50%, -50%); */
+
+    }
+
+    #left #btn {
+        font-size: smaller;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: skyblue;
+        color: black;
+
+    }
+
+    #left h2 {
+        font-size: 3.0vh;
+        font-family: Arial, Helvetica, sans-serif;
+        opacity: 70%;
+        font-weight: 500;
+    }
+
+
+    
+}
+
+
