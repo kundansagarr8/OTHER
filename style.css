@@ -9,9 +9,8 @@ html,body {
     box-sizing: border-box;
     display: flex;
     padding: 1.5vh,1.5vw;
-   /* border-bottom: 2px solid black; */
-   height: calc(100% - 100px);
-   width: 100%;
+    height: calc(100% - 100px);
+    width: 100%;
 }
 /*
 .content {
@@ -81,19 +80,23 @@ html,body {
     }
     
     #left {
-        font-size: 4.2vh;
+        font-size: 1.6vh;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        padding-top: 2.0vh;
-        padding-left: 1.5vw;
+        padding-top: 0.2vh;
+        padding-left: 0.2vw;
         position: absolute;
-       /* top: -35%;
-        left: -30%;
-        transform: translate(-50%, -50%); */
+        /*top: -50%;
+        left: -50%;
+        transform: translate(-50%, -50%);*/
 
     }
 
     #left #btn {
-        font-size: smaller;
+        font-size: x-small;
+        padding-right: 0.4vw;
+        padding-left: 0.4vw;
+        padding-top: 0.2vh;
+        padding-bottom: 0.2vh;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         background-color: skyblue;
         color: black;
@@ -101,10 +104,13 @@ html,body {
     }
 
     #left h2 {
-        font-size: 3.0vh;
+        font-size: 1.0vh;
         font-family: Arial, Helvetica, sans-serif;
         opacity: 70%;
         font-weight: 500;
+    }
+    .content {
+        flex-direction: column;
     }
 
 
